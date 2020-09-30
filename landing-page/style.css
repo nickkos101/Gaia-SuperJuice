@@ -83,7 +83,11 @@ button, input[type=submit], .btn {background-color:#59B631; margin-top: 5px; mar
 
 
 .talignleft {text-align: left;}
-.taligncenter {text-align: center;}
+.taligncenter 
+{
+	text-align: center;
+	text-shadow: 2px 0px red;
+}
 .talignright {text-align: right;}
 
 .lemon:after { content: " "; position: absolute; bottom: 0; right: 0; width: 600px; background: #fff; height: 600px; background-image: url(images/lemon.jpg); background-size: contain; background-repeat: no-repeat; background-position: bottom right; max-height: 35%; max-width: 30%; }
